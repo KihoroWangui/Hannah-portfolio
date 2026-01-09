@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hannah Kihoro | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    /* Hero */
+    #hero {
+      background: linear-gradient(135deg, #020617, #1e293b);
+      padding: 4rem 1rem;
+      text-align: center;
+      border-bottom: 1px solid #1e293b;
+    }
+
+    #hero h1 {
+      font-size: 2.6rem;
+      margin-bottom: 0.6rem;
+    }
+
+    #hero p {
+      font-size: 1.1rem;
+      color: #94a3b8;
+    }
+
+    /* Layout */
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 3rem 1rem;
+    }
+
+    /* Section headings */
+    h2 {
+      margin-bottom: 1.8rem;
+      color: #93c5fd;
+      border-left: 4px solid #3b82f6;
+      padding-left: 0.6rem;
+    }
+
+    /* Projects */
+    .project {
+      background: #020617;
+      padding: 1.6rem;
+      margin-bottom: 1.6rem;
+      border-radius: 10px;
+      border: 1px solid #1e293b;
+      transition: border 0.2s ease;
+    }
+
+    .project:hover {
+      border-color: #3b82f6;
+    }
+
+    .project h3 {
+      margin-bottom: 0.5rem;
+      color: #e5e7eb;
+    }
+
+    .project p {
+      margin-bottom: 0.9rem;
+      color: #cbd5f5;
+    }
+
+    .project small {
+      color: #94a3b8;
+    }
+
+    /* Links */
+    .links a {
+      display: inline-block;
+      margin-right: 1.2rem;
+      text-decoration: none;
+      color: #60a5fa;
+      font-weight: 500;
+    }
+
+    .links a:hover {
+      color: #93c5fd;
+    }
+
+    /* Skills */
+    #skills {
+      background: #020617;
+      border-top: 1px solid #1e293b;
+      border-bottom: 1px solid #1e293b;
+    }
+
+    .skills-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+    }
+
+    .skills-list li {
+      background: #1e293b;
+      padding: 0.45rem 0.9rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      color: #e5e7eb;
+    }
+
+    /* Contact */
+    #contact {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      background: #020617;
+    }
+
+    #contact h2 {
+      border: none;
+      padding: 0;
+      margin-bottom: 0.8rem;
+    }
+
+    #contact a {
+      color: #60a5fa;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    #contact a:hover {
+      color: #93c5fd;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Hero -->
+  <section id="hero">
+    <h1>Hannah Kihoro</h1>
+    <p>Web Developer | JavaScript & PHP</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container">
+
+    <h2>JavaScript Projects</h2>
+    <div class="project">
+      <h3>Cashy Expense Tracker</h3>
+      <p>Expense tracker implemented using JavaScript for tracking daily expenses.</p>
+      <div class="links">
+        <a href="https://cashyexpensetracker.vercel.app/">Live Demo</a>
+        <a href="https://github.com/KihoroWangui/Cashy-Expense-Tracker.git">GitHub</a>
+      </div>
+</div>
+ <div class="project">
+      <h3>Online Writer's Notebook</h3>
+      <p>Website  </p>
+      <div class="links">
+        <a href="https://writer-s-online-notebook.vercel.app/">Live Demo</a>
+        <a href="https://github.com/KihoroWangui/Writer-s-Online-Notebook.git">GitHub</a>
+      </div>
+
+    </div>
+
+    <h2>PHP Projects</h2>
+    <div class="project">
+      <h3>User Authentication System</h3>
+      <p>Login and registration system using PHP sessions, PDO, and password hashing.</p>
+      <div class="links">
+        <a href="https://github.com/KihoroWangui/User-Authentication-using-PHP.git">View Code</a>
+      </div>
+      <small>Backend project – source code only</small>
+    </div>
+
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>MySQL</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Git</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <a href="mailto:you@email.com">hannahkihoro@gmail.com</a>
+  </section>
+
+</body>
+</html>
